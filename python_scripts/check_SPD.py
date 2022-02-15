@@ -14,8 +14,9 @@ import argparse
 
 '''Script to download updated SPD Files
 from the National Records of Scotland 
-website'''
-
+website.'''
+'''NOTE: You may have to disconnect your
+VPN for this script to work.'''
 
 # Access the url and create 
 #a BeautifulSoup object
