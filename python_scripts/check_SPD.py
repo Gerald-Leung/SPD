@@ -43,12 +43,12 @@ date_arg = parse_date.parse_args()
 #b = "2021-2"
 #print("{0},text={1}".format(a,b))
 x = search_link(response,a,date_arg.date)
-print(x)
+#print(x)
 #z = soup.find_all("{0},text={1}".format(a,b))
 #print(z)
 
 t1 = x[1].string
-print(t1)
+#print(t1)
 
 # Check for updates
 with open('currentSPD.txt','w') as f:
@@ -57,11 +57,13 @@ with open('currentSPD.txt','w') as f:
 f1 = "./currentSPD.txt"
 f2 = "./oldSPD.txt"
 result = filecmp.cmp(f1,f2,shallow=False)
-print(result)
+#print(result)
 
 if result == True:
+    print('\n')
     print('No new SPD files since last checked.')
 else:
+    print('\n')
     print('Check the website for updates.')
     print('=============================')
     print('Proceeding with download.')
@@ -74,7 +76,7 @@ else:
     base_target = "https://www.nrscotland.gov.uk"
     target_linkhref = x[1]["href"]
     target_url = base_target+target_linkhref
-    print(target_url)
+    #print(target_url)
 
     get_target_url = Request(target_url,
             headers={'User-Agent': 'Moziilla/5.0'})
@@ -82,14 +84,18 @@ else:
     target_soup = BeautifulSoup(target_html,'html.parser')
     file_target = target_soup.find_all(
             'a',text='Postcode Index')[1]['href']
-    print(file_target)
+    #print('File path: '+str(file_target))
+    final_target = base_target + file_target
+    print('File path: '+str(final_target))
 
-
-
-
-
-
-
+    # Final download
+    save_folder = "./NRS_SPD_{0}_CSV".format(date_arg.date)
+    user_agent = {'User-agent': 'Mozilla/5.0'}
+    r = requests.get(final_target,headers=user_agent)
+    z = zipfile.ZipFile(io.BytesIO(r.content))
+    z.extractall("{0}".format(save_folder))
+    print('========================')
+    print('Download completed and saved to {0}'.format(save_folder))
 
 
 
