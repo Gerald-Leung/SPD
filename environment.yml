@@ -1,0 +1,16 @@
+name: spd_checks
+  
+channels: 
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3
+  - pip
+  - numpy
+  - bs4
+  - io
+  - zipfile
+  - requests
+  - wget
+  - os
