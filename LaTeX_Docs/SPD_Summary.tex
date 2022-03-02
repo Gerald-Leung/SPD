@@ -148,7 +148,7 @@ citecolor=blue,linkcolor=red, urlcolor=blue
 \date{Draft version: \today}
 \maketitle
 \tableofcontents
-\section{Introduction}
+\section{Introduction}\label{sec:intro}
 \pagestyle{CVfooter}
 
 In this short document, we summarise the process of
@@ -167,29 +167,29 @@ Here we also reproduce a brief summary
 of the data, which can be found in Appendix \ref{appendix:dict}.
 Full details can be found through the \href{https://www.nrscotland.gov.uk/files//statistics/geography/2021-2/spd-datadictionary-2021-2.pdf}{data dictionary} provided by the NRS,
 or accessed through
-\begin{verbatim}
+\begin{lstlisting}
 //PHIBCS/PHI/Referencing & Standards/GPD/1_Geography
 /Scottish Postcode Directory/Source Data/2021_2
 /ISD Data Dictionary_2021-2
-\end{verbatim}
+\end{lstlisting}
 for the \textbf{2021-2} version.
 
 \section{Initial Quality Checks}
 The \R scripts are located in 
-\begin{verbatim}
+\begin{lstlisting}
 //PHIBCS/PHI/Referencing & Standards/GPD/5_GitHub/GPD/Geography
 /Scottish Postcode Directory
-\end{verbatim}
+\end{lstlisting}
 and the Standard Operating Procedures (SOPs) are located in
-\begin{verbatim}
+\begin{lstlisting}
 //PHIBCS/PHI/Referencing & Standards/GPD/1_Geography
 /Scottish Postcode Directory/SOPs.
-\end{verbatim}
+\end{lstlisting}
 The source files can be found in
-\begin{verbatim}
+\begin{lstlisting}
 //PHIBCS/PHI/Referencing & Standards/GPD/1_Geography
 /Scottish Postcode Directory/Source Data.
-\end{verbatim}
+\end{lstlisting}
 They can be accessed through the organisation's VPN.
 The first QC is done through the \R script \texttt{1\_Check NRS SPD.R}.
 
@@ -197,29 +197,6 @@ In short, this script conducts a general initial
 QC of the newest version of SPD files and compares
 changes with the previous version. Figure \ref{fig:block1}
 shows roughly the structure of the script and the QC process.
-
-To start with, all empty rows contained in the files
-are removed and the files are combined. The user will then
-record the total number of records and postcode types.
-Sanity checks are conducted to make sure there are
-no blank entries for Health Board and Council Areas etc.
-Checks are then carried out to make sure columns are
-aligned correctly. For example, between Health Board Area
-Code and Council Area Code columns. This is generally done
-by assigning a number to the case when a particular
-column does not have an expected code that should match
-with the other column. 
-During 2019, eight postcodes moved from Glasgow City Council to
-North Lanarkshire Council. Extensive checks are then carried
-out to make sure there are no blank fields. Checks are also
-carried out to make sure there are no English voting codes included.
-Finally, the script makes sure that mappings are done correctly,
-such as Data Zones and Health Boards.
-
-The script also makes comparisons with previous SPD files.
-For instance,it checks for changes in postcodes
-(some have been deleted), different data zones and
-health boards etc.
 
 \begin{figure}[h!]
 %\centering
@@ -234,8 +211,6 @@ health boards etc.
 \node (B) at (-9,8)  [draw, process, text width=3cm, minimum height=0.8cm, align=flush center] 
 {Check column alignments};
 
-%\node (B1) at (-4,9.5)  [draw, process, text width=3cm, minimum height=0.8cm, align=flush center] 
-%{\texttt{OUTCAR}};
 
 \node (B2) at (-4,8)  [draw, process, text width=3cm, minimum height=0.8cm, align=flush center] 
 {Check for incorrect blank cells};
@@ -252,12 +227,6 @@ health boards etc.
 \node (B6) at (-17,5)  [draw, process, text width=3cm, minimum height=0.8cm, align=flush center] 
 {Compare with previous version};
 
-%\node (B3) at (-4,6.5)  [draw, process, text width=3cm, minimum height=0.8cm, align=flush center] 
-%{\texttt{ORBCAR}};
-
-%\draw[->] (A) to node[midway,above=0.3em,align=center]{test} (B);
-%\draw[<-] (A)  --node[midway,above=0.3,align=center,text width=4cm]{Input parameters} [midway,below=0.3,align=center,text width=4cm]{Manual input} +(-180:4cm) ;
-%\draw[<-] (A)  --node[above]{Input parameters} +(-180:4cm);
 \draw[->] (P) -- (A);
 
 \draw[->] (A) -- (B);
@@ -274,6 +243,32 @@ health boards etc.
 \caption{Schematic diagram of the initial QC process.}\label{fig:block1}
 \end{figure}
 
+To start with, all empty rows contained in the files
+are removed and the files are combined. The user will then
+record the total number of records and postcode types (\texttt{Large User} or \texttt{Small User}).
+Sanity checks are conducted to make sure there are
+no blank entries for Health Board and Council Areas.
+The script then checks for postcodes that moved
+from Glasgow City Council to North Lanarkshire Council
+(eight in total).
+Checks are then carried out to make sure columns are
+aligned correctly. For example, between Health Board Area
+Code and Council Area Code columns to make sure their values in 1995 (e.g. \texttt{HealthBoardArea1995Code}) represent the same area in 2006 (e.g. \texttt{HealthBoardArea2006Code}). This is generally done
+by assigning a number to the case when a particular
+column does not have an expected code that should match
+with the other column. For instance:
+\begin{lstlisting}[language=R,frame=single]
+HB_issue = case_when(HealthBoardArea1995Code == '01' & 
+                              HealthBoardArea2006Code != 'S08000008' ~ 1)
+Count(HB_issue)
+\end{lstlisting} 
+Refer to Appendix \ref{appendix:dict} or the NRS
+data dictionary mentioned in Section \ref{sec:intro}
+for more information of the data.
+ 
+ Extensive checks are then carried
+out to make sure there are no blank fields, through the \texttt{checks} function
+
 \begin{lstlisting}[language=R,frame=single]
 checks <- function(variable1, variable2){
   
@@ -284,8 +279,32 @@ checks <- function(variable1, variable2){
     print()
   
 }
-
 \end{lstlisting}
+So for instance, we should expect that
+if \texttt{OutputArea2001Code} is blank, then\\
+\texttt{DataZone2001Code} should also be blank since
+the data zones are made up of output areas. Throughout
+the script, blank fields are also checked by, for example,
+
+\begin{lstlisting}[language=R]
+spd %>% summarise(missing = sum(is.na(DataZone2001Code)))
+\end{lstlisting}
+where \texttt{spd} refers to the \texttt{SingleRecord.csv}
+data frame.
+
+
+Examinations are also
+carried out to make sure there are no English voting codes included. Some checks are also carried to make sure
+there are no errors with postcodes and their
+split indicators.
+Finally, the script makes sure that mappings are done correctly,
+such as Data Zones and Health Boards.
+
+The script also makes comparisons with previous SPD files.
+For instance,it checks for changes in postcodes
+(some have been deleted), different data zones and
+health boards etc.
+
  
 \section{Lookup Files}
 The next step of the process is to produce lookup files for

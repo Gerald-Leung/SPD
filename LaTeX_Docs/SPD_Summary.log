@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.22)  2 MAR 2022 14:23
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.22)  2 MAR 2022 17:13
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1387,7 +1387,7 @@ s-[]and-[]data / geography /
 [1
 
 {C:/Users/yeehil01/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (30.2563pt too wide) in paragraph at lines 273--274
+Overfull \hbox (30.2563pt too wide) in paragraph at lines 242--243
 [][] 
  []
 
@@ -1455,62 +1455,62 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 330--330
+Underfull \hbox (badness 10000) in paragraph at lines 349--349
 []|\OT1/cmr/m/n/12 2021 Scot-tish Par-lia-men-tary Con-
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 347--347
+Underfull \hbox (badness 1048) in paragraph at lines 366--366
 []|\OT1/cmr/m/n/12 1991 Cen-sus post-code usu-ally res-i-dent
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 351--351
+Underfull \hbox (badness 1210) in paragraph at lines 370--370
 \OT1/cmr/m/n/12 ture of Ter-ri-to-rial Units for Statis-tics
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 352--352
+Underfull \hbox (badness 1210) in paragraph at lines 371--371
 \OT1/cmr/m/n/12 ture of Ter-ri-to-rial Units for Statis-tics
  []
 
 
-Underfull \hbox (badness 5189) in paragraph at lines 365--365
+Underfull \hbox (badness 5189) in paragraph at lines 384--384
 \OT1/cmr/m/n/12 mu-nity Plan-ning Part-ner-ships (CPP)
  []
 
 
-Underfull \hbox (badness 4193) in paragraph at lines 367--367
+Underfull \hbox (badness 4193) in paragraph at lines 386--386
 []|\OT1/cmr/m/n/12 2013 Strate-gic De-vel-op-ment Plan-ning
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 382--382
+Underfull \hbox (badness 6910) in paragraph at lines 401--401
 []|\OT1/cmr/m/n/12 2012 Com-mu-nity Health Part-ner-ship
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 383--383
+Underfull \hbox (badness 6910) in paragraph at lines 402--402
 []|\OT1/cmr/m/n/12 2011 Com-mu-nity Health Part-ner-ship
  []
 
 
-Overfull \hbox (2.84647pt too wide) in paragraph at lines 384--384
+Overfull \hbox (2.84647pt too wide) in paragraph at lines 403--403
 []|\OT1/cmr/m/n/12 CommunityHealthPartnershipSubAreas2011Code| 
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 385--385
+Underfull \hbox (badness 6910) in paragraph at lines 404--404
 []|\OT1/cmr/m/n/12 2007 Com-mu-nity Health Part-ner-ship
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 386--386
+Underfull \hbox (badness 6910) in paragraph at lines 405--405
 []|\OT1/cmr/m/n/12 2004 Com-mu-nity Health Part-ner-ship
  []
 
 
-Overfull \hbox (106.13383pt too wide) in alignment at lines 302--393
+Overfull \hbox (106.13383pt too wide) in alignment at lines 321--412
  [] [] [] 
  []
 
@@ -1565,13 +1565,13 @@ Package rerunfilecheck Info: File `SPD_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: 8B4EF1241C70D4E8366CBA77CC8A86E9;543.
  ) 
 Here is how much of TeX's memory you used:
- 41349 strings out of 478659
- 832118 string characters out of 2844498
- 1418594 words of memory out of 3000000
- 58786 multiletter control sequences out of 15000+600000
+ 41376 strings out of 478659
+ 832507 string characters out of 2844498
+ 1429080 words of memory out of 3000000
+ 58794 multiletter control sequences out of 15000+600000
  414475 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,12n,94p,2576b,3104s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 91i,11n,94p,2576b,1947s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/yeehil01/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Users/yeehil01/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmcsc10.pfb><C:/Users/yeehil01/AppData/Local/Programs/MiKTeX/fon
@@ -1584,9 +1584,9 @@ AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users
 m/cmr8.pfb><C:/Users/yeehil01/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmtt10.pfb><C:/Users/yeehil01/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmtt12.pfb>
-Output written on SPD_Summary.pdf (8 pages, 149797 bytes).
+Output written on SPD_Summary.pdf (8 pages, 157979 bytes).
 PDF statistics:
- 150 PDF objects out of 1000 (max. 8388607)
- 27 named destinations out of 1000 (max. 500000)
+ 176 PDF objects out of 1000 (max. 8388607)
+ 46 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 
