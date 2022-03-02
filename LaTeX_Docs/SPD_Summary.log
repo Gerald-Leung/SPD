@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.22)  2 MAR 2022 09:52
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.22)  2 MAR 2022 14:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1028,62 +1028,88 @@ Package: layout 2021-03-10 v1.2e Show layout parameters
 \PositionY=\count366
 \ArrowLength=\count367
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 38.
+(C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.st
+y
+\lst@mode=\count368
+\lst@gtempboxa=\box110
+\lst@token=\toks42
+\lst@length=\count369
+\lst@currlwidth=\dimen321
+\lst@column=\count370
+\lst@pos=\count371
+\lst@lostspace=\dimen322
+\lst@width=\dimen323
+\lst@newlines=\count372
+\lst@lineno=\count373
+\lst@maxwidth=\dimen324
+
+(C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count374
+\lst@skipnumbers=\count375
+\lst@framebox=\box111
+)
+(C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cf
+g
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+Package hyperref Info: Option `colorlinks' set `true' on input line 66.
 
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/qrcode\qrcode.sty
 Package: qrcode 2015/01/08 v1.51 QR code generation
-\c@qr@i=\count368
-\c@qr@j=\count369
-\qr@a=\count370
-\qr@b=\count371
-\qr@c=\count372
-\qr@for@depth=\count373
-\qr@for@maxdepth=\count374
-\qr@for@start=\count375
-\qr@for@end=\count376
-\qr@for@step=\count377
-\qr@newforcount=\count378
-\qr@newforcount=\count379
+\c@qr@i=\count376
+\c@qr@j=\count377
+\qr@a=\count378
+\qr@b=\count379
+\qr@c=\count380
+\qr@for@depth=\count381
+\qr@for@maxdepth=\count382
+\qr@for@start=\count383
+\qr@for@end=\count384
+\qr@for@step=\count385
+\qr@newforcount=\count386
+\qr@newforcount=\count387
 \qr@desiredheight=\skip59
 \qr@modulesize=\skip60
 \qr@minipagewidth=\skip61
-\c@maski=\count380
-\c@maskj=\count381
-\c@totalones=\count382
-\c@penaltyi=\count383
-\c@penaltyii=\count384
-\c@penaltyiii=\count385
-\c@penaltyiv=\count386
-\c@qr@hexchars=\count387
-\qr@newforcount=\count388
-\c@qr@divisionsremaining=\count389
+\c@maski=\count388
+\c@maskj=\count389
+\c@totalones=\count390
+\c@penaltyi=\count391
+\c@penaltyii=\count392
+\c@penaltyiii=\count393
+\c@penaltyiv=\count394
+\c@qr@hexchars=\count395
+\qr@newforcount=\count396
+\c@qr@divisionsremaining=\count397
 )
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/media9\media9.sty
 Package: media9 2021/10/18 v1.23 acrobat-9/X compatible media
-\g_mix_pkgresizeflag_int=\count390
+\g_mix_pkgresizeflag_int=\count398
 
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/media9\pdfbase.sty
 Package: pdfbase 2021/09/12 v0.53 driver independent access to low-level PDF fe
 atures
-\g_pbs_page_int=\count391
-\g_pbs_oc_int=\count392
+\g_pbs_page_int=\count399
+\g_pbs_oc_int=\count400
 )
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/ocgx2\ocgbase.sty
 Package: ocgbase 2021/06/11 v0.20 support package for ocgx2.sty
-\g_ocgbase_nd_int=\count393
+\g_ocgbase_nd_int=\count401
 )
-\l_mix_poster_box=\box110
-\g_mix_wd_dim=\dimen321
-\g_mix_ht_dim=\dimen322
-\g_mix_dp_dim=\dimen323
-\g_mix_rmcnt_int=\count394
-\l_mix_viewcnt_int=\count395
-\g@mix@page@int=\count396
-\g_mix_resizeflag_int=\count397
-\l_mix_lineno_int=\count398
-\l_mix_pbtn_box=\box111
-\g_mix_mbtncnt_int=\count399
-\mix@btn@dim=\dimen324
+\l_mix_poster_box=\box112
+\g_mix_wd_dim=\dimen325
+\g_mix_ht_dim=\dimen326
+\g_mix_dp_dim=\dimen327
+\g_mix_rmcnt_int=\count402
+\l_mix_viewcnt_int=\count403
+\g@mix@page@int=\count404
+\g_mix_resizeflag_int=\count405
+\l_mix_lineno_int=\count406
+\l_mix_pbtn_box=\box113
+\g_mix_mbtncnt_int=\count407
+\mix@btn@dim=\dimen328
 )
 (aasmacros.sty)
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/beamer\multimedia.st
@@ -1092,7 +1118,7 @@ Package: multimedia 2012/05/02 ver 0.02
  (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
 )
-\mm@movie=\count400
+\mm@movie=\count408
 )
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/sidecap\sidecap.sty
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
@@ -1100,58 +1126,58 @@ Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 )
-\SC@BOXWD=\dimen325
-\SC@CAPWD=\dimen326
-\SC@tempdima=\dimen327
-\SC@tempdimb=\dimen328
-\c@SC@C=\count401
-\SC@BOX=\box112
+\SC@BOXWD=\dimen329
+\SC@CAPWD=\dimen330
+\SC@tempdima=\dimen331
+\SC@tempdimb=\dimen332
+\c@SC@C=\count409
+\SC@BOX=\box114
 )
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pdfpages.st
 y
 Package: pdfpages 2022/01/29 v0.5u Insert pages of external PDF documents (AM)
  (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count402
-\calc@Bcount=\count403
-\calc@Adimen=\dimen329
-\calc@Bdimen=\dimen330
+\calc@Acount=\count410
+\calc@Bcount=\count411
+\calc@Adimen=\dimen333
+\calc@Bdimen=\dimen334
 \calc@Askip=\skip62
 \calc@Bskip=\skip63
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count404
+\calc@Ccount=\count412
 \calc@Cskip=\skip64
 )
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
 Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
-\ESO@tempdima=\dimen331
-\ESO@tempdimb=\dimen332
+\ESO@tempdima=\dimen335
+\ESO@tempdimb=\dimen336
 )
-\AM@pagewidth=\dimen333
-\AM@pageheight=\dimen334
-\AM@fboxrule=\dimen335
+\AM@pagewidth=\dimen337
+\AM@pageheight=\dimen338
+\AM@fboxrule=\dimen339
 
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/pdfpages\pppdftex.de
 f
 File: pppdftex.def 2022/01/29 v0.5u Pdfpages driver for pdfTeX (AM)
 )
-\pdfpages@includegraphics@status=\count405
-\AM@pagebox=\box113
-\AM@global@opts=\toks42
-\AM@pagecnt=\count406
-\AM@toc@title=\toks43
-\c@AM@survey=\count407
-\AM@templatesizebox=\box114
+\pdfpages@includegraphics@status=\count413
+\AM@pagebox=\box115
+\AM@global@opts=\toks43
+\AM@pagecnt=\count414
+\AM@toc@title=\toks44
+\c@AM@survey=\count415
+\AM@templatesizebox=\box116
 ) (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/tools\xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 ) (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count408
-\float@exts=\toks44
-\float@box=\box115
-\@float@everytoks=\toks45
-\@floatcapt=\box116
+\c@float@type=\count416
+\float@exts=\toks45
+\float@box=\box117
+\@float@everytoks=\toks46
+\@floatcapt=\box118
 )
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.st
 y
@@ -1161,7 +1187,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip65
 \bibsep=\skip66
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count409
+\c@NAT@ctr=\count417
 )
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/fancyhdr\fancyhdr.st
 y
@@ -1179,32 +1205,32 @@ rs
 ) (SPD_Summary.aux)
 \openout1 = `SPD_Summary.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 117.
-LaTeX Font Info:    Trying to load font information for T3+cmr on input line 11
-7.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 145.
+LaTeX Font Info:    Trying to load font information for T3+cmr on input line 14
+5.
 
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 117.
-LaTeX Font Info:    ... okay on input line 117.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 145.
+LaTeX Font Info:    ... okay on input line 145.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1244,17 +1270,17 @@ LaTeX Font Info:    ... okay on input line 117.
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf
 .mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count410
-\scratchdimen=\dimen336
-\scratchbox=\box117
-\nofMPsegments=\count411
-\nofMParguments=\count412
-\everyMPshowfont=\toks46
-\MPscratchCnt=\count413
-\MPscratchDim=\dimen337
-\MPnumerator=\count414
-\makeMPintoPDFobject=\count415
-\everyMPtoPDFconversion=\toks47
+\scratchcounter=\count418
+\scratchdimen=\dimen340
+\scratchbox=\box119
+\nofMPsegments=\count419
+\nofMParguments=\count420
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count421
+\MPscratchDim=\dimen341
+\MPnumerator=\count422
+\makeMPintoPDFobject=\count423
+\everyMPtoPDFconversion=\toks48
 )
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopd
 f-base.sty
@@ -1269,6 +1295,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.st
@@ -1284,8 +1311,8 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 117.
-Package hyperref Info: Link coloring ON on input line 117.
+or `english'. on input line 145.
+Package hyperref Info: Link coloring ON on input line 145.
 
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1298,15 +1325,16 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 titlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count416
+\c@section@level=\count424
 )
-LaTeX Info: Redefining \ref on input line 117.
-LaTeX Info: Redefining \pageref on input line 117.
-LaTeX Info: Redefining \nameref on input line 117.
+LaTeX Info: Redefining \ref on input line 145.
+LaTeX Info: Redefining \pageref on input line 145.
+LaTeX Info: Redefining \nameref on input line 145.
  (SPD_Summary.out) (SPD_Summary.out)
 \@outlinefile=\write4
 \openout4 = `SPD_Summary.out'.
 
+\c@lstlisting=\count425
 
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/ragged2e\ragged2e.st
 y
@@ -1335,12 +1363,12 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 122
+LaTeX Font Info:    Trying to load font information for U+msa on input line 150
 .
  (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 122
+LaTeX Font Info:    Trying to load font information for U+msb on input line 150
 .
 
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -1351,7 +1379,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout5 = `SPD_Summary.toc'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 130--130
+Underfull \hbox (badness 10000) in paragraph at lines 158--158
 [][][][][]$\OT1/cmtt/m/n/10 https : / / www . nrscotland . gov . uk / statistic
 s-[]and-[]data / geography /
  []
@@ -1359,10 +1387,23 @@ s-[]and-[]data / geography /
 [1
 
 {C:/Users/yeehil01/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (30.2563pt too wide) in paragraph at lines 245--246
+Overfull \hbox (30.2563pt too wide) in paragraph at lines 273--274
 [][] 
  []
 
+
+(C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.st
+y
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang2.st
+y
+File: lstlang2.sty 2020/03/24 1.8d listings language file
+)
+(C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang3.st
+y
+File: lstlang3.sty 2020/03/24 1.8d listings language file
+)
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1387,11 +1428,11 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(28.45274pt, 479.42804pt, 89.62709pt)
+* h-part:(L,W,R)=(28.45274pt, 455.24411pt, 113.81102pt)
 * v-part:(T,H,B)=(101.40665pt, 591.5302pt, 152.11pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=479.42804pt
+* \textwidth=455.24411pt
 * \textheight=591.5302pt
 * \oddsidemargin=-43.81725pt
 * \evensidemargin=-43.81725pt
@@ -1414,7 +1455,62 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Overfull \hbox (80.75507pt too wide) in alignment at lines 259--290
+Underfull \hbox (badness 10000) in paragraph at lines 330--330
+[]|\OT1/cmr/m/n/12 2021 Scot-tish Par-lia-men-tary Con-
+ []
+
+
+Underfull \hbox (badness 1048) in paragraph at lines 347--347
+[]|\OT1/cmr/m/n/12 1991 Cen-sus post-code usu-ally res-i-dent
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 351--351
+\OT1/cmr/m/n/12 ture of Ter-ri-to-rial Units for Statis-tics
+ []
+
+
+Underfull \hbox (badness 1210) in paragraph at lines 352--352
+\OT1/cmr/m/n/12 ture of Ter-ri-to-rial Units for Statis-tics
+ []
+
+
+Underfull \hbox (badness 5189) in paragraph at lines 365--365
+\OT1/cmr/m/n/12 mu-nity Plan-ning Part-ner-ships (CPP)
+ []
+
+
+Underfull \hbox (badness 4193) in paragraph at lines 367--367
+[]|\OT1/cmr/m/n/12 2013 Strate-gic De-vel-op-ment Plan-ning
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 382--382
+[]|\OT1/cmr/m/n/12 2012 Com-mu-nity Health Part-ner-ship
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 383--383
+[]|\OT1/cmr/m/n/12 2011 Com-mu-nity Health Part-ner-ship
+ []
+
+
+Overfull \hbox (2.84647pt too wide) in paragraph at lines 384--384
+[]|\OT1/cmr/m/n/12 CommunityHealthPartnershipSubAreas2011Code| 
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 385--385
+[]|\OT1/cmr/m/n/12 2007 Com-mu-nity Health Part-ner-ship
+ []
+
+
+Underfull \hbox (badness 6910) in paragraph at lines 386--386
+[]|\OT1/cmr/m/n/12 2004 Com-mu-nity Health Part-ner-ship
+ []
+
+
+Overfull \hbox (106.13383pt too wide) in alignment at lines 302--393
  [] [] [] 
  []
 
@@ -1437,32 +1533,60 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[5] (SPD_Summary.aux)
+[5]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[6]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[7]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[8] (SPD_Summary.aux)
 Package rerunfilecheck Info: File `SPD_Summary.out' has not changed.
 (rerunfilecheck)             Checksum: 8B4EF1241C70D4E8366CBA77CC8A86E9;543.
  ) 
 Here is how much of TeX's memory you used:
- 38987 strings out of 478659
- 801986 string characters out of 2844498
- 1160061 words of memory out of 3000000
- 56459 multiletter control sequences out of 15000+600000
+ 41349 strings out of 478659
+ 832118 string characters out of 2844498
+ 1418594 words of memory out of 3000000
+ 58786 multiletter control sequences out of 15000+600000
  414475 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 91i,11n,94p,2576b,891s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 91i,12n,94p,2576b,3104s stack positions out of 5000i,500n,10000p,200000b,80000s
 <C:/Users/yeehil01/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Users/yeehil01/AppData/Local/Programs/MiKTeX/fonts/type1/publ
 ic/amsfonts/cm/cmcsc10.pfb><C:/Users/yeehil01/AppData/Local/Programs/MiKTeX/fon
 ts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/yeehil01/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/yeehil01/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/yeehil01/
-AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users
-/yeehil01/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users
+/yeehil01/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb
 ><C:/Users/yeehil01/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/c
-m/cmtt10.pfb><C:/Users/yeehil01/AppData/Local/Programs/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmtt12.pfb>
-Output written on SPD_Summary.pdf (5 pages, 124213 bytes).
+m/cmr8.pfb><C:/Users/yeehil01/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmtt10.pfb><C:/Users/yeehil01/AppData/Local/Programs/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmtt12.pfb>
+Output written on SPD_Summary.pdf (8 pages, 149797 bytes).
 PDF statistics:
- 115 PDF objects out of 1000 (max. 8388607)
- 14 named destinations out of 1000 (max. 500000)
+ 150 PDF objects out of 1000 (max. 8388607)
+ 27 named destinations out of 1000 (max. 500000)
  49 words of extra memory for PDF output out of 10000 (max. 10000000)
 

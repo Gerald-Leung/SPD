@@ -31,6 +31,34 @@
 \usepackage{layout}
 \usepackage{geometry}
 %\geometry{left=12mm}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\footnotesize,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+
+\lstset{style=mystyle}
 
 
 \hypersetup{colorlinks,
@@ -245,18 +273,33 @@ health boards etc.
 \end{tikzpicture}
 \caption{Schematic diagram of the initial QC process.}\label{fig:block1}
 \end{figure}
+
+\begin{lstlisting}[language=R,frame=single]
+checks <- function(variable1, variable2){
+  
+  spd %>% 
+    mutate(check = case_when(variable1 == "" & variable2 != "" ~ 1, 
+                             variable1 != "" & variable2 == "" ~ 2)) %>% 
+    count(check) %>% 
+    print()
+  
+}
+
+\end{lstlisting}
  
 \section{Lookup Files}
 The next step of the process is to produce lookup files for
 other uses and analysis within the organisation.
 
 
-\newgeometry{left=10mm}
+\newgeometry{left=10mm,right=40mm}
 
 \appendix
 \section{Appendix: Data Dictionary}\label{appendix:dict}
+Here we reproduced and summarised the data dictionary provided by the NRS. Table {\ref{tab:SPD_DICT}} shows the rough definition of the data within \texttt{SingleRecord.csv}
+in order.
 
-\begin{longtable}{|| m{.45\textwidth} | m{.13\textwidth} | m{.5\textwidth}||} 
+\begin{longtable}{|| m{.55\textwidth} | m{.12\textwidth} | m{.47\textwidth}||} 
 \hline
 \textbf{Name} & \textbf{Type} & \textbf{Notes} \\
 \hline\hline
@@ -284,9 +327,69 @@ SplitIndicator & Character & Split postcode indicator. Y/N.\\ \hline
 CouncilArea2019Code & Character & Identifies a 2019 Council Area.\\ \hline
 UKParliamentaryConstituency2005Code & Character & 2005 UK Parliamentary Constituency.\\ \hline
 ScottishParliamentaryRegion2021Code & Character & 2021 Scottish Parliamentary Region.\\ \hline
+ScottishParliamentaryConstituency2021Code & Character & 2021 Scottish Parliamentary Constituency.\\ \hline
+ElectoralWard2019Code & Character & 2019 Electoral Ward.\\ \hline
+HealthBoardArea2019Code & Character & 2019 Health Board.\\ \hline
+HealthBoardArea2006Code & Character & 2006 Health Board.\\ \hline
+HealthBoardArea1995Code & Character & 1995 Health Board.\\ \hline
+IntegrationAuthority2019Code & Character & 2019 Health and Social Care Partnership.\\ \hline
+OutputArea2011Code & Character & 2011 Census Output Area.\\ \hline
+OutputArea2001Code & Character & 2001 Census Output Area.\\ \hline
+OutputArea1991Code & Character & 1991 Census Output Area.\\ \hline
+DataZone2011Code & Character & 2011 Data Zone built from 2011 Output Areas.\\ \hline
+DataZone2001Code & Character & 2001 Data Zone built from 2001 Output Areas.\\ \hline
+IntermediateZone2011Code & Character & 2011 Intermediate Zone built from 2011 Data Zones.\\ \hline
+IntermediateZone2001Code & Character & 2001 Intermediate Zone built from 2001 Data Zones.\\ \hline
+CensusHouseholdCount2011 & Integer & 2011 Census postcode household count.\\ \hline
+CensusPopulationCount2011 & Integer & 2011 Census postcode residential count.\\ \hline
+CensusHouseholdCount2001 & Integer & 2001 Census postcode household count.\\ \hline
+CensusPopulationCount2001 & Integer & 2001 Census postcode residential count.\\ \hline
+CensusHouseholdCount1991 & Integer & 1991 Census postcode usually resident household count.\\ \hline
+CensusPopulationCount1991 & Integer & 1991 Census postcode residential count.\\ \hline
+ScottishIndexOfMultipleDeprivation2020Rank & Character & Rank Data Zones (2011) according to deprivation.\\ \hline
+LAU2019Level1Code & Character & European Area Classification Local Administrative Unit (LAU) 2019 level 1. E.g. Council areas.\\ \hline
+NUTS2018Level2Code & Character & European Area Classification Nomenclature of Territorial Units for Statistics (NUTS) 2018 level 2.\\ \hline
+NUTS2018Level3Code & Character & European Area Classification Nomenclature of Territorial Units for Statistics (NUTS) 2018 level 3.\\ \hline
+Locality2016Code & Character & 2016 Locality code.\\ \hline
+Locality2001Code & Character & 2001 Locality code.\\ \hline
+Locality1991Code & Character & 1991 Locality code.\\ \hline
+Settlement2016Code & Character & 2016 Settlement code.\\ \hline
+Settlement2001Code & Character & 2001 Settlement code.\\ \hline
+CivilParish1930Code & Character & 1930 Civil Parish code.\\ \hline
+EnterpriseRegion2008Code & Character & 2008 Scottish Enterprise Region code.\\ \hline
+Islands2021Code & Character & Island identification code.\\ \hline
+LocalGovernmentDistrict1995Code & Character & 1995 Local Government District code.\\ \hline
+LocalGovernmentDistrict1991Code & Character & 1991 Local Government District code.\\ \hline
+NationalPark2010Code & Character & 2010 National Park code.\\ \hline
+RegistrationDistrict2007Code & Character & 2019 Council Area (same as Council Area boundaries).\\ \hline
+ROACommunityPlanningPartnership2006Code & Character & 2006 Regeneration Outcome Area Community Planning Partnerships (CPP) code.\\ \hline
+ROALocal2006Code & Character & 2006 Regeneration Outcome Area Local code.\\ \hline
+StrategicDevelopmentPlanningArea2013Code & Character & 2013 Strategic Development Planning Area code.\\ \hline
+TravelToWorkArea2011Code & Character & 2011 Travel to Work Area code.\\ \hline
+UrbanRural6Fold2016Code & Character & Standard definition of rural Scotland following the Scottish Government Urban Rural classification (6 fold).\\ \hline
+UrbanRural8Fold2016Code & Character & Similarly to above (8 fold).\\ \hline
+GrudLinkIndicator & Character & Whether grid reference has been assigned via GridLink (Y/N).\\ \hline
+GridLinkPositionalAccuracy & Character & Positional accuracy of the GridLink grid reference allocated to each postcode. See full dictionary for details.\\ \hline
+NeverDigitised & Character & Whether a postcode boundary has been digitised (Y/N).\\ \hline
+CouncilArea2011Code & Character & 2011 Council Area code.\\ \hline
+HealthBoardArea2014Code & Character & 2014 Health Board code.\\ \hline
+IntegrationAuthority2016Code & Character & 2016 Integration Authority code (Health and Social Care Partnership).\\ \hline
+CouncilArea2018Code & Character & 2018 Council Area code.\\ \hline
+HealthBoardArea2018Code & Character & 2018 Health Board code.\\ \hline
+IntegrationAuthority2018Code & Character & 2018 Integration Authority code (Health and Social Care Partnership).\\ \hline
+UrbanRural2Fold2016Code & Character & Standard definition of rural Scotland following the Scottish Government Urban Rural classification (2 fold).\\ \hline
+UrbanRural3Fold2016Code & Character & Similarly to above (3 fold).\\ \hline
+CommunityHealthPartnership2012Code & Character & 2012 Community Health Partnership code.\\ \hline
+CommunityHealthPartnership2011Code & Character & 2011 Community Health Partnership code.\\ \hline
+CommunityHealthPartnershipSubAreas2011Code & Character & 2011 Community Health Partnership sub sector code.\\ \hline
+CommunityHealthPartnership2007Code & Character & 2007 Community Health Partnership code.\\ \hline
+CommunityHealthPartnership2004Code & Character & 2004 Community Health Partnership code.\\ \hline
+
+
+
 
 \caption{Data dictionary of the SPD file. Reproduced from NRS.} % needs to go inside longtable environment
-\label{tab:myfirstlongtable}
+\label{tab:SPD_DICT}
 \end{longtable}
 %\restoregeometry
 %\end{table} 
