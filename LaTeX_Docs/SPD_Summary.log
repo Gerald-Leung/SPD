@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.22)  2 MAR 2022 17:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12) (preloaded format=pdflatex 2022.2.22)  3 MAR 2022 18:20
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1205,32 +1205,32 @@ rs
 ) (SPD_Summary.aux)
 \openout1 = `SPD_Summary.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 145.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 146.
 LaTeX Font Info:    Trying to load font information for T3+cmr on input line 14
-5.
+6.
 
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/tipa\t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 145.
-LaTeX Font Info:    ... okay on input line 145.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 146.
+LaTeX Font Info:    ... okay on input line 146.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1311,8 +1311,8 @@ File: translations-basic-dictionary-english.trsl (english translation file `tra
 nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
-or `english'. on input line 145.
-Package hyperref Info: Link coloring ON on input line 145.
+or `english'. on input line 146.
+Package hyperref Info: Link coloring ON on input line 146.
 
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
@@ -1327,9 +1327,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count424
 )
-LaTeX Info: Redefining \ref on input line 145.
-LaTeX Info: Redefining \pageref on input line 145.
-LaTeX Info: Redefining \nameref on input line 145.
+LaTeX Info: Redefining \ref on input line 146.
+LaTeX Info: Redefining \pageref on input line 146.
+LaTeX Info: Redefining \nameref on input line 146.
  (SPD_Summary.out) (SPD_Summary.out)
 \@outlinefile=\write4
 \openout4 = `SPD_Summary.out'.
@@ -1363,12 +1363,12 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 150
+LaTeX Font Info:    Trying to load font information for U+msa on input line 151
 .
  (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 150
+LaTeX Font Info:    Trying to load font information for U+msb on input line 151
 .
 
 (C:\Users\yeehil01\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -1379,7 +1379,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout5 = `SPD_Summary.toc'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 158--158
+Underfull \hbox (badness 10000) in paragraph at lines 159--159
 [][][][][]$\OT1/cmtt/m/n/10 https : / / www . nrscotland . gov . uk / statistic
 s-[]and-[]data / geography /
  []
@@ -1387,7 +1387,7 @@ s-[]and-[]data / geography /
 [1
 
 {C:/Users/yeehil01/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (30.2563pt too wide) in paragraph at lines 242--243
+Overfull \hbox (30.2563pt too wide) in paragraph at lines 243--244
 [][] 
  []
 
@@ -1413,6 +1413,10 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [2]
+Overfull \hbox (29.45631pt too wide) in paragraph at lines 351--352
+[][] 
+ []
+
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1422,6 +1426,15 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
 [3]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[4]
 *geometry* verbose mode - [ newgeometry ] result:
 * driver: pdftex
 * paper: a4paper
@@ -1455,62 +1468,62 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 349--349
+Underfull \hbox (badness 10000) in paragraph at lines 414--414
 []|\OT1/cmr/m/n/12 2021 Scot-tish Par-lia-men-tary Con-
  []
 
 
-Underfull \hbox (badness 1048) in paragraph at lines 366--366
+Underfull \hbox (badness 1048) in paragraph at lines 431--431
 []|\OT1/cmr/m/n/12 1991 Cen-sus post-code usu-ally res-i-dent
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 370--370
+Underfull \hbox (badness 1210) in paragraph at lines 435--435
 \OT1/cmr/m/n/12 ture of Ter-ri-to-rial Units for Statis-tics
  []
 
 
-Underfull \hbox (badness 1210) in paragraph at lines 371--371
+Underfull \hbox (badness 1210) in paragraph at lines 436--436
 \OT1/cmr/m/n/12 ture of Ter-ri-to-rial Units for Statis-tics
  []
 
 
-Underfull \hbox (badness 5189) in paragraph at lines 384--384
+Underfull \hbox (badness 5189) in paragraph at lines 449--449
 \OT1/cmr/m/n/12 mu-nity Plan-ning Part-ner-ships (CPP)
  []
 
 
-Underfull \hbox (badness 4193) in paragraph at lines 386--386
+Underfull \hbox (badness 4193) in paragraph at lines 451--451
 []|\OT1/cmr/m/n/12 2013 Strate-gic De-vel-op-ment Plan-ning
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 401--401
+Underfull \hbox (badness 6910) in paragraph at lines 466--466
 []|\OT1/cmr/m/n/12 2012 Com-mu-nity Health Part-ner-ship
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 402--402
+Underfull \hbox (badness 6910) in paragraph at lines 467--467
 []|\OT1/cmr/m/n/12 2011 Com-mu-nity Health Part-ner-ship
  []
 
 
-Overfull \hbox (2.84647pt too wide) in paragraph at lines 403--403
+Overfull \hbox (2.84647pt too wide) in paragraph at lines 468--468
 []|\OT1/cmr/m/n/12 CommunityHealthPartnershipSubAreas2011Code| 
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 404--404
+Underfull \hbox (badness 6910) in paragraph at lines 469--469
 []|\OT1/cmr/m/n/12 2007 Com-mu-nity Health Part-ner-ship
  []
 
 
-Underfull \hbox (badness 6910) in paragraph at lines 405--405
+Underfull \hbox (badness 6910) in paragraph at lines 470--470
 []|\OT1/cmr/m/n/12 2004 Com-mu-nity Health Part-ner-ship
  []
 
 
-Overfull \hbox (106.13383pt too wide) in alignment at lines 321--412
+Overfull \hbox (106.13383pt too wide) in alignment at lines 386--477
  [] [] [] 
  []
 
@@ -1522,18 +1535,9 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[4
+[5
 
 ]
-
-Package fancyhdr Warning: \headheight is too small (12.0pt): 
-(fancyhdr)                Make it at least 14.49998pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.49998pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-
-(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
-
-[5]
 
 Package fancyhdr Warning: \headheight is too small (12.0pt): 
 (fancyhdr)                Make it at least 14.49998pt, for example:
@@ -1560,15 +1564,24 @@ Package fancyhdr Warning: \headheight is too small (12.0pt):
 
 (fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
 
-[8] (SPD_Summary.aux)
+[8]
+
+Package fancyhdr Warning: \headheight is too small (12.0pt): 
+(fancyhdr)                Make it at least 14.49998pt, for example:
+(fancyhdr)                \setlength{\headheight}{14.49998pt}.
+(fancyhdr)                You might also make \topmargin smaller to compensate:
+
+(fancyhdr)                \addtolength{\topmargin}{-2.49998pt}.
+
+[9] (SPD_Summary.aux)
 Package rerunfilecheck Info: File `SPD_Summary.out' has not changed.
-(rerunfilecheck)             Checksum: 8B4EF1241C70D4E8366CBA77CC8A86E9;543.
+(rerunfilecheck)             Checksum: 63D71D4FDB7E136FA4F1B539EC97B99C;866.
  ) 
 Here is how much of TeX's memory you used:
- 41376 strings out of 478659
- 832507 string characters out of 2844498
- 1429080 words of memory out of 3000000
- 58794 multiletter control sequences out of 15000+600000
+ 41411 strings out of 478659
+ 832988 string characters out of 2844498
+ 1435177 words of memory out of 3000000
+ 58817 multiletter control sequences out of 15000+600000
  414475 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  91i,11n,94p,2576b,1947s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1584,9 +1597,9 @@ AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users
 m/cmr8.pfb><C:/Users/yeehil01/AppData/Local/Programs/MiKTeX/fonts/type1/public/
 amsfonts/cm/cmtt10.pfb><C:/Users/yeehil01/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/amsfonts/cm/cmtt12.pfb>
-Output written on SPD_Summary.pdf (8 pages, 157979 bytes).
+Output written on SPD_Summary.pdf (9 pages, 166938 bytes).
 PDF statistics:
- 176 PDF objects out of 1000 (max. 8388607)
- 46 named destinations out of 1000 (max. 500000)
- 49 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 205 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 65 words of extra memory for PDF output out of 10000 (max. 10000000)
 

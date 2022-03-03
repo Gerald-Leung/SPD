@@ -89,6 +89,7 @@ citecolor=blue,linkcolor=red, urlcolor=blue
 \newcommand{\Numpy}{{\sc NumPy}\xspace}
 \newcommand{\astropy}{{\sc Astropy}\xspace}
 \newcommand{\R}{{\sc R}\xspace}
+\newcommand{\spss}{{\sc SPSS}\xspace}
 
 
 \newcommand{\be}{\begin{equation}}
@@ -308,8 +309,72 @@ health boards etc.
  
 \section{Lookup Files}
 The next step of the process is to produce lookup files for
-other uses and analysis within the organisation.
+other uses and analysis within the organisation. Figure \ref{fig:block2} shows an overview of the process. To begin
+with, all the variables are renamed and changed into
+correct format. The Urban Rural codes are changed into
+named columns. Some formatting are done to ensure
+consistency with \R and \spss. For instance, by adding
+leading zeros to some columns and making sure
+blank cells are represented as \texttt{NA}. The script
+then connects to the PHS Open Data website\footnote{\url{https://www.opendata.nhs.scot/}}   
+to access Geography Codes and Names data file,
+which are then used for column names, including
+Data Zone, Intermediate Zone, Council Area,
+Health and Social Care Partnership and Health Board.
+These are then merged with the original
+\texttt{SingleRecord.csv} to produce the lookup file.
 
+\begin{figure}[h!]
+%\centering
+\begin{tikzpicture}[>=stealth, thick]
+
+\node (P) at (-19,8) [text width=4cm, minimum height=0.8cm, align=flush center] 
+{\texttt{SingleRecord.csv}\\(Checked)};
+
+\node (A) at (-14.5,8) [draw, process, text width=2cm, minimum height=0.8cm, align=flush center] 
+{Renaming and formatting};
+
+\node (B) at (-10,8)  [draw, process, text width=3cm, minimum height=0.8cm, align=flush center] 
+{Add column names from Open Data API};
+
+
+\node (B2) at (-6,8)  [text width=2cm, minimum height=0.8cm, align=flush center] 
+{SPD lookup file};
+
+
+\draw[->] (P) -- (A);
+
+\draw[->] (A) -- (B);
+\draw[->] (B) -- (B2);
+
+
+\end{tikzpicture}
+\caption{Schematic diagram of the lookup file production process.}\label{fig:block2}
+\end{figure}
+
+\section{Updating Postcode Table}
+After QC, the data needs to be uploaded to the
+corporate data warehouse (CDW). The lookup files are found in
+\begin{lstlisting}
+//PHIBCS/PHI/Referencing & Standards/GPD/1_Geography
+/Scottish Postcode Directory/Lookup Files.
+\end{lstlisting} 
+The tables from
+the previous SPD files have to be updated to satisfy
+any requirements from the IT. Some columns
+are not required and therefore removed. On the other hand,
+there are columns that are no longer supplied by the NRS.
+They are however still required for CDW and therefore
+must be added here. The columns are renamed and finally
+reordered, and saved as
+\begin{lstlisting}
+//PHIBCS/PHI/Referencing & Standards/GPD/1_Geography
+/Scottish Postcode Directory/Lookup Files
+/Scottish_Postcode_Directory_2021-2_CDW.csv
+\end{lstlisting} 
+for the \textbf{2021-2} version.
+
+\section{Testing Postcode Table}
 
 \newgeometry{left=10mm,right=40mm}
 
@@ -326,7 +391,7 @@ Postcode & Character & The Royal Mail postcode. Consists of area, district, sect
 SplitChar & Character & A, B, C \\ \hline
 PostcodeDistrict & Character & Postcode District. E.g. AB1. \\ \hline
 PostcodeSector & Character & Postcode Sector. E.g. AB1 0.\\ \hline
-DateOfIntroduction & Date & Postcode introduction date. Currently shown as $\#\#\#\#$ instead of a date. \\ \hline
+DateOfIntroduction & Date & Postcode introduction date. Currently shown as $\#\#\#\#$ on the \texttt{csv} file. \\ \hline
 DateOfDeletion & Date & Postcode deletion date.
 Similarly to date of introduction. \\ \hline
 PostcodeType & Character & Small (S) or Large (L).\\ \hline
