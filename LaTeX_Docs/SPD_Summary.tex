@@ -309,7 +309,7 @@ health boards etc.
  
 \section{Lookup Files}
 The next step of the process is to produce lookup files for
-other uses and analysis within the organisation. Figure \ref{fig:block2} shows an overview of the process. To begin
+other uses and analysis within the organisation. This is done through the \texttt{2\_Create Postcode Lookup Files.R} script. Figure \ref{fig:block2} shows an overview of the process. To begin
 with, all the variables are renamed and changed into
 correct format. The Urban Rural codes are changed into
 named columns. Some formatting are done to ensure
@@ -375,9 +375,13 @@ reordered, and saved as
 for the \textbf{2021-2} version.
 
 \section{Testing Postcode Table}
+The file is then uploaded to APXU by IT,
+which requires testing. This is done with the script
+\texttt{5\_Check Postcode table on MGSREF APXU}.
+We start off by connecting to the APXU and access
+the database there. 
 
 \newgeometry{left=10mm,right=40mm}
-
 \appendix
 \section{Appendix: Data Dictionary}\label{appendix:dict}
 Here we reproduced and summarised the data dictionary provided by the NRS. Table {\ref{tab:SPD_DICT}} shows the rough definition of the data within \texttt{SingleRecord.csv}
@@ -409,17 +413,17 @@ Latitude & Numeric & Coordinates in degrees.\\ \hline
 Longitude & Numeric & Coordinates in degrees.\\ \hline
 SplitIndicator & Character & Split postcode indicator. Y/N.\\ \hline
 CouncilArea2019Code & Character & Identifies a 2019 Council Area.\\ \hline
-UKParliamentaryConstituency2005Code & Character & 2005 UK Parliamentary Constituency.\\ \hline
-ScottishParliamentaryRegion2021Code & Character & 2021 Scottish Parliamentary Region.\\ \hline
-ScottishParliamentaryConstituency2021Code & Character & 2021 Scottish Parliamentary Constituency.\\ \hline
-ElectoralWard2019Code & Character & 2019 Electoral Ward.\\ \hline
-HealthBoardArea2019Code & Character & 2019 Health Board.\\ \hline
-HealthBoardArea2006Code & Character & 2006 Health Board.\\ \hline
-HealthBoardArea1995Code & Character & 1995 Health Board.\\ \hline
-IntegrationAuthority2019Code & Character & 2019 Health and Social Care Partnership.\\ \hline
-OutputArea2011Code & Character & 2011 Census Output Area.\\ \hline
-OutputArea2001Code & Character & 2001 Census Output Area.\\ \hline
-OutputArea1991Code & Character & 1991 Census Output Area.\\ \hline
+UKParliamentaryConstituency2005Code & Character & 2005 UK Parliamentary Constituency code.\\ \hline
+ScottishParliamentaryRegion2021Code & Character & 2021 Scottish Parliamentary Region code.\\ \hline
+ScottishParliamentaryConstituency2021Code & Character & 2021 Scottish Parliamentary Constituency code.\\ \hline
+ElectoralWard2019Code & Character & 2019 Electoral Ward code.\\ \hline
+HealthBoardArea2019Code & Character & 2019 Health Board code.\\ \hline
+HealthBoardArea2006Code & Character & 2006 Health Board code.\\ \hline
+HealthBoardArea1995Code & Character & 1995 Health Board code.\\ \hline
+IntegrationAuthority2019Code & Character & 2019 Health and Social Care Partnership code.\\ \hline
+OutputArea2011Code & Character & 2011 Census Output Area code.\\ \hline
+OutputArea2001Code & Character & 2001 Census Output Area code.\\ \hline
+OutputArea1991Code & Character & 1991 Census Output Area code.\\ \hline
 DataZone2011Code & Character & 2011 Data Zone built from 2011 Output Areas.\\ \hline
 DataZone2001Code & Character & 2001 Data Zone built from 2001 Output Areas.\\ \hline
 IntermediateZone2011Code & Character & 2011 Intermediate Zone built from 2011 Data Zones.\\ \hline
