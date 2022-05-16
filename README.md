@@ -12,4 +12,8 @@ If you run into any problems with the packages, use pip install <packagename> in
   
 The check_SPD.ipynb notebook provides documentation for the functionality of this simple process. The check_SPD.py script provides the actual functionality.
   
-To run the script, open up terminal and type python check_SPD.py --date <date of file/link>. It will then check the target website for any changes and if so, download the required CSV files. 
+To run the script, open up terminal and type 
+```
+  python check_SPD.py --date <date of file/link>
+```
+It will then check the target website for any changes and if so, download the required CSV files. 
